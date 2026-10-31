@@ -29,6 +29,47 @@ The current topology includes:
 - 9 PCs
 - Router-to-router links
 - Ethernet connections between routers, switches, and PCs
+- ## Network Topology
+
+The network contains three routers, three Cisco 2960 switches, and nine PCs connected across multiple network segments.
+
+![Network Topology](screenshots/network-topology.png)
+
+## Router Interface Verification
+
+The router interfaces were checked using the Cisco IOS command:
+
+```text
+show ip interface brief
+```
+
+This command displays interface IP addresses and their operational status.
+
+![Router Interface Verification](screenshots/router-interfaces.png)
+
+## Routing Table Verification
+
+The routing table was inspected using:
+
+```text
+show ip route
+```
+
+This command displays directly connected networks and any static routes installed in the routing table.
+
+![Routing Table](screenshots/routing-table.png)
+
+## Connectivity Testing
+
+Connectivity was tested in the Packet Tracer environment. The results should be documented alongside the relevant test outputs.
+
+## Key Learning Outcomes
+
+- Configuring router interfaces with IPv4 addresses.
+- Understanding directly connected networks and static routes.
+- Inspecting interface status and routing tables.
+- Troubleshooting connectivity in a simulated network.
+- Documenting a network lab for technical review.
 
 ## Configuration and Testing
 
